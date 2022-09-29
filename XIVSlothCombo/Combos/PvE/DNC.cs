@@ -487,7 +487,7 @@ namespace XIVSlothCombo.Combos.PvE
                             return Improvisation;
                     }
 
-                    if (LevelChecked(SaberDance) && (gauge.Esprit >= 85 || (techBurst && gauge.Esprit > 50)))
+                    if (LevelChecked(SaberDance) && (gauge.Esprit >= 70 || (techBurst && gauge.Esprit > 50)))
                         return SaberDance;
 
                     if (LevelChecked(Fountain) && lastComboMove is Cascade && comboTime is < 2 and > 0)
@@ -572,7 +572,7 @@ namespace XIVSlothCombo.Combos.PvE
                             return Flourish;
                     }
 
-                    if (LevelChecked(SaberDance) && (gauge.Esprit >= 85 || (techBurst && gauge.Esprit > 50)))
+                    if (LevelChecked(SaberDance) && (gauge.Esprit >= 70 || (techBurst && gauge.Esprit > 50)))
                         return SaberDance;
 
                     if (canWeave)
